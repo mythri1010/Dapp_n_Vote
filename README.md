@@ -20,25 +20,6 @@ A **decentralized voting application** built with React, Ethers.js, and Solidity
 - **Blockchain**: Solidity (Smart Contracts), Ethereum (Volta Testnet)
 - **Tools**: MetaMask, Git, GitHub
 
-## 📂 Project Structure
-.
-├── public/                  # Static assets (HTML, images)
-│   ├── index.html           # Main HTML template
-│   └── favicon.ico          # App icon
-├── src/
-│   ├── Components/          # React components
-│   │   ├── Login.jsx        # Login page component
-│   │   └── Connected.jsx    # Voting interface component
-│   ├── Constant/
-│   │   └── constant.js      # Contract ABI and address config
-│   ├── App.js               # Main application logic
-│   ├── App.css              # Global styles
-│   └── index.js             # React entry point
-├── contracts/               # Smart contracts (optional)
-│   └── Voting.sol           # Solidity contract code
-├── README.md                # Project documentation
-└── package.json             # Node.js dependencies
-
 ## 🚀 Getting Started
 ### Prerequisites
 - MetaMask browser extension
@@ -54,5 +35,10 @@ A **decentralized voting application** built with React, Ethers.js, and Solidity
 - Cost-Efficient: Optimized gas usage with fallback mechanisms.
 - Transparency: Every vote is recorded on-chain, auditable by anyone.
 - No Central Authority: Fully decentralized, eliminating tampering risks.
+
+## 🧪 Testing
+1. Connect your MetaMask wallet to Volta Testnet.
+2. Get test VT tokens from the Volta Faucet.
+3. Vote and verify transactions on Volta Explorer.
 
 
