@@ -22,15 +22,22 @@ A **decentralized voting application** built with React, Ethers.js, and Solidity
 
 ## 📂 Project Structure
 .
-├── public/ 
+├── public/                  # Static assets (HTML, images)
+│   ├── index.html           # Main HTML template
+│   └── favicon.ico          # App icon
 ├── src/
-│ ├── Components/ # React components (Login, Connected)
-│ ├── Constant/ # Contract ABI and address
-│ ├── App.js # Main application logic
-│ └── App.css 
-├── contracts/ # Solidity smart contracts (if included)
-├── README.md # Project documentation
-└── package.json # Dependencies
+│   ├── Components/          # React components
+│   │   ├── Login.jsx        # Login page component
+│   │   └── Connected.jsx    # Voting interface component
+│   ├── Constant/
+│   │   └── constant.js      # Contract ABI and address config
+│   ├── App.js               # Main application logic
+│   ├── App.css              # Global styles
+│   └── index.js             # React entry point
+├── contracts/               # Smart contracts (optional)
+│   └── Voting.sol           # Solidity contract code
+├── README.md                # Project documentation
+└── package.json             # Node.js dependencies
 
 ## 🚀 Getting Started
 ### Prerequisites
